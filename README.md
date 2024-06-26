@@ -1,4 +1,4 @@
-# `tf-web-static-assets`
+# `web-static-assets`
 
 TF Managed S3 bucket for storing personal static assets
 
