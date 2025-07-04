@@ -1,5 +1,5 @@
 terraform {
-  required_version = "~> 1.6"
+  required_version = "~> 1.12"
   required_providers {
     aws = {
       source = "hashicorp/aws"
@@ -7,6 +7,7 @@ terraform {
   }
   backend "s3" {
     key = "web-static-assets/dev/terraform.tfstate"
+    use_lockfile = true
   }
 }
 
